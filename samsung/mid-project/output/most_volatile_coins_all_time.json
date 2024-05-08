@@ -1,0 +1,130 @@
+[
+  {
+    "symbol": "BOMEUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "DREPUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "SOLUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "BTCUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "LINKUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "DOGEUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "YFIUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "BOMEUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "PEPEUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "LTOUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "MKRUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "PAXGUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "SHIBUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "DREPUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "GNOUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "AVAXUSDT",
+    "volatility": 0
+  },
+  {
+    "symbol": "PAXGUSDT",
+    "volatility": 1
+  },
+  {
+    "symbol": "YFIUSDT",
+    "volatility": 2
+  },
+  {
+    "symbol": "SOLUSDT",
+    "volatility": 9
+  },
+  {
+    "symbol": "NEOUSDT",
+    "volatility": 10
+  },
+  {
+    "symbol": "MKRUSDT",
+    "volatility": 12
+  },
+  {
+    "symbol": "ETHUSDT",
+    "volatility": 12
+  },
+  {
+    "symbol": "GNOUSDT",
+    "volatility": 14
+  },
+  {
+    "symbol": "DOGEUSDT",
+    "volatility": 18
+  },
+  {
+    "symbol": "SHIBUSDT",
+    "volatility": 18
+  },
+  {
+    "symbol": "PEPEUSDT",
+    "volatility": 20
+  },
+  {
+    "symbol": "AVAXUSDT",
+    "volatility": 22
+  },
+  {
+    "symbol": "LTOUSDT",
+    "volatility": 30
+  },
+  {
+    "symbol": "NEOUSDT",
+    "volatility": 45
+  },
+  {
+    "symbol": "ETHUSDT",
+    "volatility": 51
+  },
+  {
+    "symbol": "BTCUSDT",
+    "volatility": 65
+  },
+  {
+    "symbol": "LINKUSDT",
+    "volatility": 81
+  }
+]

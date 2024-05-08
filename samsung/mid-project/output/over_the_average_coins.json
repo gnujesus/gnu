@@ -1,0 +1,28 @@
+[
+  {
+    "coin_name": "BTCUSDT",
+    "symbol": "BTCUSDT",
+    "datetime": "2023-12-31 20:00:00",
+    "open_price": 42283.58,
+    "high": 44184.1,
+    "low": 42180.77,
+    "range": 2003.3300000000017,
+    "close_price": 44179.55,
+    "volume": 27174.29903,
+    "number_of_trades": 1114623.0,
+    "market_cap": 1200548302.7108364
+  },
+  {
+    "coin_name": "YFIUSDT",
+    "symbol": "YFIUSDT",
+    "datetime": "2023-12-31 20:00:00",
+    "open_price": 8078.0,
+    "high": 8282.0,
+    "low": 7928.0,
+    "range": 354.0,
+    "close_price": 8277.0,
+    "volume": 488.60537,
+    "number_of_trades": 26973.0,
+    "market_cap": 4044186.64749
+  }
+]

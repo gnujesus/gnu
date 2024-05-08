@@ -1,0 +1,41 @@
+[
+  {
+    "coin_name": "NEOUSDT",
+    "symbol": "NEOUSDT",
+    "datetime": "2018-12-14 20:00:00",
+    "open_price": 5.625,
+    "high": 5.677,
+    "low": 5.421,
+    "range": 0.25599999999999934,
+    "close_price": 5.588,
+    "volume": 251275.31,
+    "number_of_trades": 6750.0,
+    "market_cap": 1404126.43228
+  },
+  {
+    "coin_name": "ETHUSDT",
+    "symbol": "ETHUSDT",
+    "datetime": "2018-10-27 20:00:00",
+    "open_price": 204.45,
+    "high": 205.94,
+    "low": 203.62,
+    "range": 2.319999999999993,
+    "close_price": 204.99,
+    "volume": 44394.83357,
+    "number_of_trades": 37134.0,
+    "market_cap": 9100496.9335143
+  },
+  {
+    "coin_name": "BTCUSDT",
+    "symbol": "BTCUSDT",
+    "datetime": "2018-10-27 20:00:00",
+    "open_price": 6505.6,
+    "high": 6514.17,
+    "low": 6453.0,
+    "range": 61.17000000000007,
+    "close_price": 6489.93,
+    "volume": 5743.933728,
+    "number_of_trades": 71647.0,
+    "market_cap": 37277727.81935904
+  }
+]
