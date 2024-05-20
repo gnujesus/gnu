@@ -1,21 +1,24 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react-refresh/only-export-components */
-import "./App.css";
+import './App.css';
 
-import { Col } from "antd";
-import PokemonList from "./components/PokemonList";
-import Searcher from "./components/Searcher";
-import { connect } from "react-redux";
-import logo from "./static/logo.svg";
-import { setPokemons as setPokemonsActions } from "./actions";
-import { useEffect } from "react";
+import { Col } from 'antd';
+import PokemonList from './components/PokemonList';
+import Searcher from './components/Searcher';
+import { useSelector, useDispatch } from 'react-redux';
+import logo from './static/logo.svg';
+import { setPokemons } from './actions';
+import { useEffect } from 'react';
 
-function App({ pokemons, setPokemons }) {
+function App() {
+  const pokemons = useSelector((state) => state.pokemons);
+  const dispatch = useDispatch();
+
   useEffect(() => {
-    fetch("https://pokeapi.co/api/v2/pokemon?limit=151&offset=0")
+    fetch('https://pokeapi.co/api/v2/pokemon?limit=151&offset=0')
       .then((res) => res.json())
       .then((res) => {
-        setPokemons(res.results);
+        dispatch(setPokemons(res.results));
       });
   }, []);
 
@@ -41,14 +44,4 @@ function App({ pokemons, setPokemons }) {
   );
 }
 
-// state
-const mapStateToProps = (state) => ({
-  pokemons: state.pokemons,
-});
-
-// setter
-const mapDispatchToProps = (dispatch) => ({
-  setPokemons: (value) => dispatch(setPokemonsActions(value)),
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default App;
