@@ -1,11 +1,11 @@
-import { Flex } from "antd";
-import PokemonCard from "./PokemonCard";
+import { Flex } from 'antd';
+import PokemonCard from './PokemonCard';
 
-export default function PokemonList({ pokemons = Array(10).fill("") }) {
+export default function PokemonList({ pokemons = Array(10).fill('') }) {
   return (
     <div
       className='pokemonlist'
-      style={{ marginTop: "20px" }}>
+      style={{ marginTop: '20px' }}>
       <Flex
         wrap='wrap'
         gap='large'
@@ -15,6 +15,7 @@ export default function PokemonList({ pokemons = Array(10).fill("") }) {
             <PokemonCard
               key={pokemon.name}
               name={pokemon.name}
+              url={pokemon.sprites.front_default}
             />
           );
         })}

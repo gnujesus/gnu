@@ -5,21 +5,26 @@ import './App.css';
 import { Col } from 'antd';
 import PokemonList from './components/PokemonList';
 import Searcher from './components/Searcher';
-import { useSelector, useDispatch } from 'react-redux';
 import logo from './static/logo.svg';
-import { setPokemons } from './actions';
+import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
+import { setPokemons } from './actions';
+import { getPokemon, getPokemonDetails } from './api';
 
 function App() {
   const pokemons = useSelector((state) => state.pokemons);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    fetch('https://pokeapi.co/api/v2/pokemon?limit=151&offset=0')
-      .then((res) => res.json())
-      .then((res) => {
-        dispatch(setPokemons(res.results));
-      });
+    const fetchPokemons = async () => {
+      const pokemonsRes = await getPokemon();
+      const pokemonsDetailed = await Promise.all(
+        pokemonsRes.map((pokemon) => getPokemonDetails(pokemon))
+      );
+      dispatch(setPokemons(pokemonsDetailed));
+    };
+
+    fetchPokemons();
   }, []);
 
   return (
